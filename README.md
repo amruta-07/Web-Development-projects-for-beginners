@@ -1,4 +1,7 @@
-# Web-Development-projects-for-beginners    
+# Web-Development-projects-for-beginners   
+### Gym Website:  
+  
+  ![Screenshot (189)](https://user-images.githubusercontent.com/79842525/138100369-b2a81e35-dd14-4a0f-ab44-cf272cd38bb7.png)
   
   ## Contribution Guidelines 🏗
 

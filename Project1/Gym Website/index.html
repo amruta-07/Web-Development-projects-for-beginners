@@ -1,135 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shrey Fitness</title>
 </head>
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
-    /* css reset */
-    body{
-        font-family: 'Baloo Da 2', cursive;
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
         color: white;
         margin: 0px;
         padding: 0px;
-        background: url('img/gym.jpg');
+        background: url('img/gym2.jpg');
         background-size: cover;
     
+    
+        
+        
     }
-    .left{
+        
+
+
+    .left {
         display: inline-block;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         position: absolute;
         left: 60px;
         top: 20px;
+    }
 
-
-    } 
-    .mid{
-        display: block;
-        width: 36%;
-        margin: 20px auto;
-        border: 2px solid green;
-
-    }
-    .right{
-        position: absolute;
-        right: 34px;
-        top: 20px;
-        display: inline-block;
-        border: 2px solid yellow;
-
-    }
-    .navbar{
-        display: inline-block;
-    }
-    .navbar li{
-        display: inline-block;
-        font-size: 20px;
-    }
-    .navbar li a{
-        color: white;
-        text-decoration: none;
-        padding: 9px;
-    }
-    .navbar li a:hover, .navbar li a.active{
-        text-decoration: underline;
-        color: grey;
-    }
-    .left img{
-        width: 130px;
+    .left img {
+        width: 136px;
         filter: invert(100%);
     }
-    .left div{
-        line-height: 12px;
-        font-size: 20px;
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
         text-align: center;
     }
-    .btn{
-        font-family: 'Baloo Da 2', cursive;
-        margin: 0px 9px;
+
+    .mid {
+        display: block;
+        width: 67%;
+        margin: 28px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 10px;
         background-color: black;
         color: white;
-        padding: 4px 14px;
+        padding: 10px 14px;
         border: 2px solid grey;
-        border-radius: 10px;
+        border-radius: 15px;
         font-size: 20px;
         cursor: pointer;
     }
-    .btn:hover{
-        background-color: rgb(87, 81, 81);
-    }
-    .container{
-        border: 2px solid white;
-        margin: 106px 80px;
-        padding: 75px;
-        width: 33%;
-        border-radius: 28px;
+
+    .btn:hover {
+        background-color: rgb(76, 68, 68);
     }
 
+    .container {
+        border: 2px solid rgb(212, 194, 194);
+        margin: 75px 78px;
+        padding: 20px;
+        width: 45%;
+        border-radius: 30px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 504px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 25px;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 72%;
+        margin: 20px auto;
+        
+    }
 </style>
+
 <body>
     <header class="header">
-        <!-- left box for logo -->
-
+        <!-- Left box for logo -->
         <div class="left">
-                <img src="img/logo.png" alt="">
-                <div>shrey Fitness</div>
-        
-            
-
+            <img src="img/logo.png" alt="">
+            <div>Shrey Fitness</div>
         </div>
-        <!-- mid box for navbar  -->
-
+        <!-- Mid box for navbar -->
         <div class="mid">
-            <div class="navbar">
+            <ul class="navbar">
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
                 <li><a href="#">Contact Us</a></li>
-                
-                
-            </div>
-
-
+            </ul>
         </div>
-        <!-- right box for buttons -->
 
+        <!-- Right box for buttons -->
         <div class="right">
             <button class="btn">Call Us Now</button>
             <button class="btn">Email Us</button>
-
         </div>
-        
     </header>
     <div class="container">
         <h1>Join the best gym of Pune now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
     </div>
-    
 </body>
+
 </html>

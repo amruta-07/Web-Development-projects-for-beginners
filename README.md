@@ -1,5 +1,5 @@
 # Web-Development-projects-for-beginners   
-### 1) Gym Website:   
+### 1) Gym Website   
 
   ![Gym website](https://user-images.githubusercontent.com/79842525/138102986-9e8b2518-65cd-4d1b-9178-887dee30f0b4.png)
 
